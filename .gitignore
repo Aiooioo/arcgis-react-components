@@ -1,0 +1,11 @@
+/demo
+/node_modules
+
+.idea
+
+/lib
+/es
+/umd
+
+npm-debug.log*
+yarn.lock

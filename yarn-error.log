@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Work\scoop\apps\yarn\current\Yarn\bin\yarn.js global add nwb
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\Work\cmder_mini;C:\Program Files\nodejs\;C:\Program Files\PowerShell\6\;C:\Program Files\PuTTY\;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Users\Work\scoop\apps\yarn\current\Yarn\bin;C:\Users\Work\scoop\apps\yarn\current\global\node_modules\.bin;C:\Ruby25-x64\bin;C:\Users\Work\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Work\AppData\Local\Programs\Python\Python37-32\;C:\Users\Work\scoop\shims;C:\Users\Work\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Work\AppData\Local\Programs\Fiddler;C:\Users\Work\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Work\AppData\Roaming\npm;C:\Users\Work\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Projects\arcgis-react-components\package.json: Unexpected token } in JSON at position 607
+      at JSON.parse (<anonymous>)
+      at C:\Users\Work\scoop\apps\yarn\1.19.1\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Work\scoop\apps\yarn\1.19.1\Yarn\lib\cli.js:304:30)
+      at C:\Users\Work\scoop\apps\yarn\1.19.1\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "arcgis-react-components",
+    "version": "0.0.1",
+    "description": "React Components for ArcGIS JavaScript App",
+    "main": "index.js",
+    "module": "es/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Aiooioo/arcgis-react-components.git"
+    },
+    "dependencies": {
+      
+    },
+    "peerDependencies": {
+      "react": "^16.x",
+      "react-dom": "^16.x",
+      "esri-loader": "^2.x"
+    },
+    "devDependencies": {
+      "esri-loader": "^2.12.0",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+    },
+    "keywords": [
+      "arcgis",
+      "esri",
+      "react"
+    ],
+    "author": "yanwh",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Aiooioo/arcgis-react-components/issues"
+    },
+    "homepage": "https://github.com/Aiooioo/arcgis-react-components#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
